@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+    <link rel = "icon" href = "images/pizza32.png" type = "image/gif" sizes = "32x32">
+</head>
+<body style = "background-color:black; color: white;">
+    <form>
+        <header style = "background-color: black; border: double red 22px; background 15px;">
+            <select name = "dropdown" id = "dropdown" style = "float: right">
+                <option value = "Location">Location</option>
+                <option value = "United States">United States</option>
+                <option value = "United Kingdom">United Kingdom</option>
+                <option value = "Canada">Canada</option>
+            </select>
+            <table>
+                <tr>
+                    <td><img src = "images/pizza.png" width = 330px></td>
+                    <td><h1 style = "font-size: 150px; color: white;">Pizza</h1></td>
+                </tr>
+            </table>
+        </header>
+        <pre></pre>
+        <!-- input boxes -->
+        <fieldset style = "border: dotted red 5px">
+            <legend style = "color: red"><strong><u style = "text-decoration: underline">User Information</strong></u></legend>
+                <li class = "input">
+                    <label for = "User Name">User Name</label>
+                    <input type = "text" id = "User Name" name = "user.name">
+                </li>
+                <pre></pre>
+                <li class = "input">
+                    <label for = "Password">Password</label>
+                    <input type = "text" id = "Password" name = "Password">
+                </li>
+        </fieldset>
+        <pre></pre>
+        <!-- Radio Buttons -->
+        <fieldset style = "border: dotted red 5px">
+            <legend style = "color: red"><strong><u style = "text-decoration: underline">What drink do you want?</strong></u></legend>
+                <li class = "input">
+                    <input type = "radio" id = "Coke" name = "Drink" value = "Coke">
+                    <label for = "Coke">Coke </label>
+                    <img src = "images/coke.png" width = 2%>
+                </li>
+                <pre></pre>
+                <li class = "input">
+                    <input type = "radio" id = "Diet Coke" name = "Drink" value = "Diet Coke">
+                    <label for = "Diet Coke">Diet Coke</label>
+                    <img src = "images/dietcoke.png" width = 2%>
+                </li>
+                <pre></pre>
+                <li class = "input">
+                    <input type = "radio" id = "Sprite" name = "Drink" value = "Sprite">
+                    <label for = "Sprite">Sprite</label>
+                    <img src = "images/Sprite.png" width = 2%>
+                </li>
+                <pre></pre>
+                <li class = "input">
+                    <input type = "radio" id = "Water" name = "Drink" value = "Water">
+                    <label for = "Water">Water</label>
+                    <img src = "images/Water.png" width = 4.5%>
+                </li>
+        </fieldset>
+        <pre></pre>
+        <!-- Checkboxes -->
+        <fieldset style = "border: dotted red 5px">
+            <legend style = "color: red"><strong><u style = "text-decoration: underline">Preference</strong></u></legend>
+            <li class = "input">
+                <input type = "checkbox" id = "Plain" name = "Preference" value = "Plain">
+                <label for = "Plain">Plain</label>
+            </li>
+            <li class = "input">
+                <input type = "checkbox" id = "Pepperoni" name = "Preference" value = "Pepperoni">
+                <label for = "Pepperoni">Pepperoni</label>
+            </li>
+            <li class = "input">
+                <input type = "checkbox" id = "Chicken" name = "Preference" value = "Chicken">
+                <label for = "Chicken">Chicken</label>
+            </li>
+            <li class = "input">
+                <input type = "checkbox" id = "Sausage" name = "Preference" value = "Sausage">
+                <label for = "Sausage">Sausage</label>
+            </li>
+        </fieldset>
+        <pre></pre>
+        <!-- Text area -->
+        <fieldset style = "border: dotted red 5px">
+            <legend style = "color: red"><strong><u style = "text-decoration: underline">Special Instructions</strong></u></legend>
+                <li class = "input">
+                    <label for = "Special Instructions">Special Instructions:</label>
+                </li>
+                <textarea id = "Special Instructions" name = "Special Instructions" cols = "77" rows = "6"></textarea>
+                <article><button type = "submit" style = "background-image: url(images/Submit.png); background-size: contain;"><strong>Submit</strong></button></article>
+        </fieldset>
+    </form>
+</body>
+</html>
